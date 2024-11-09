@@ -1,0 +1,29 @@
+    /* 全体のレイアウト */
+    .container {
+      display: flex;
+      height: 90vh;
+      /* 高さを調整 */
+    }
+
+    /* 地図エリアのスタイル */
+    #map {
+      flex-grow: 1;
+      /* サイドバー以外の空間を占める */
+      height: 100%;
+    }
+
+
+    /* サイドバーのスタイル */
+    .sidebar {
+      width: 320px;
+      /* サイドバーの幅 */
+      padding: 10px;
+      background-color: #f4f4f4;
+      overflow-y: auto;
+      /* スクロール可能にする */
+      box-sizing: border-box;
+    }
+
+    h1 {
+      text-align: center
+    }
